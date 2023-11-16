@@ -1,0 +1,230 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.4.10 
+Compiled: Sep  6 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2023.1/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2023.1/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2023.1/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 7.43678 seconds.
+	BuildGraph process took 7.17188 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 128.616 MB, end = 758.372 MB, delta = 629.756 MB
+	BuildGraph process peak virtual memory usage = 766.104 MB
+BuildGraph process resident set memory usage: begin = 133.304 MB, end = 745.896 MB, delta = 612.592 MB
+	BuildGraph process peak resident set memory usage = 753.408 MB
+check rr_graph process took 0.195909 seconds.
+	check rr_graph process took 0.1875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 821.824 MB, end = 821.824 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 839.196 MB
+check rr_graph process resident set memory usage: begin = 809.236 MB, end = 809.296 MB, delta = 0.06 MB
+	check rr_graph process peak resident set memory usage = 826.568 MB
+Generated 1964835 RR nodes and 7316450 RR edges
+This design has 0 global control net(s). See C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.route.rpt for details.
+Routing graph took 7.76409 seconds.
+	Routing graph took 7.45312 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 127.244 MB, end = 756.452 MB, delta = 629.208 MB
+	Routing graph peak virtual memory usage = 839.196 MB
+Routing graph resident set memory usage: begin = 132.272 MB, end = 744.148 MB, delta = 611.876 MB
+	Routing graph peak resident set memory usage = 826.568 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+WARNING(1): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid object(s) found for 'pll_clk_200m'
+WARNING(2): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid object(s) found for 'Ddr_Clk'
+WARNING(5): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid pin(s) found for clock
+WARNING(6): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(8): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Unable to run 'create_clock' constraint due to warnings found
+WARNING(9): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(10): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] No valid object(s) found for ''
+WARNING(11): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] set_input_delay: No valid input port(s) found
+WARNING(12): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(13): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(14): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] No valid object(s) found for ''
+WARNING(15): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] set_input_delay: No valid input port(s) found
+WARNING(16): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(17): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(18): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] No valid object(s) found for ''
+WARNING(19): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] set_input_delay: No valid input port(s) found
+WARNING(20): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(21): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(22): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] No valid object(s) found for ''
+WARNING(23): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] set_input_delay: No valid input port(s) found
+WARNING(24): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(25): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(26): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] No valid object(s) found for ''
+WARNING(27): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] set_input_delay: No valid input port(s) found
+WARNING(28): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(29): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(30): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] No valid object(s) found for ''
+WARNING(31): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] set_input_delay: No valid input port(s) found
+WARNING(32): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(34): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(35): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] No valid object(s) found for ''
+WARNING(36): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] set_input_delay: No valid input port(s) found
+WARNING(37): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(38): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(39): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(40): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] No valid object(s) found for ''
+WARNING(41): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] set_input_delay: No valid input port(s) found
+WARNING(42): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+7 clocks (including virtual clocks), 132 inputs and 268 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        12506              9.659               1.73
+         2         1074              9.615               1.16
+         3          283              9.615              0.664
+         4           41              9.784               0.25
+         5            9              9.762              0.169
+         6            3              9.819              0.127
+         7            2              9.819              0.122
+         8            2              9.875              0.125
+         9            1              9.875               0.12
+        10            0              9.875              0.121
+
+Successfully routed netlist after 10 routing iterations and 21415432 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 862935398
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.route'
+Routing took 8.31108 seconds.
+	Routing took 7.98438 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 756.452 MB, end = 774.808 MB, delta = 18.356 MB
+	Routing peak virtual memory usage = 935.136 MB
+Routing resident set memory usage: begin = 744.152 MB, end = 765.88 MB, delta = 21.728 MB
+	Routing peak resident set memory usage = 891.716 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+WARNING(43): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid object(s) found for 'pll_clk_200m'
+WARNING(44): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid pin(s) found for clock
+WARNING(45): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(46): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid object(s) found for 'Ddr_Clk'
+WARNING(47): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid pin(s) found for clock
+WARNING(48): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] Unable to run 'create_clock' constraint due to warnings found
+WARNING(49): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(50): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Unable to run 'create_clock' constraint due to warnings found
+WARNING(51): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(52): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] No valid object(s) found for ''
+WARNING(53): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] set_input_delay: No valid input port(s) found
+WARNING(54): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(55): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(56): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] No valid object(s) found for ''
+WARNING(57): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] set_input_delay: No valid input port(s) found
+WARNING(58): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(59): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(60): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] No valid object(s) found for ''
+WARNING(61): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] set_input_delay: No valid input port(s) found
+WARNING(62): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(63): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(64): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] No valid object(s) found for ''
+WARNING(65): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] set_input_delay: No valid input port(s) found
+WARNING(66): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(67): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(68): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] No valid object(s) found for ''
+WARNING(69): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] set_input_delay: No valid input port(s) found
+WARNING(70): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(71): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(72): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] No valid object(s) found for ''
+WARNING(73): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] set_input_delay: No valid input port(s) found
+WARNING(74): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(75): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(76): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(77): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] No valid object(s) found for ''
+WARNING(78): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] set_input_delay: No valid input port(s) found
+WARNING(79): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(80): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(81): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(82): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] No valid object(s) found for ''
+WARNING(83): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] set_input_delay: No valid input port(s) found
+WARNING(84): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+7 clocks (including virtual clocks), 132 inputs and 268 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+hdmi_clk1x_i    12.189        82.041         (R-R)
+hdmi_clk2x_i     5.994       166.834         (R-R)
+Axi_Clk          9.995       100.050         (R-R)
+tx_slowclk      10.912        91.642         (R-R)
+
+Geomean max period: 9.448
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  hdmi_clk1x_i     hdmi_clk1x_i        20.080            7.891           (R-R)
+  hdmi_clk1x_i     hdmi_clk2x_i        10.040            7.947           (R-R)
+  hdmi_clk1x_i     Axi_Clk              0.001           -1.122           (R-R)
+  hdmi_clk1x_i     tx_slowclk           0.251           -3.624           (R-R)
+  hdmi_clk2x_i     hdmi_clk2x_i        10.040            4.046           (R-R)
+  Axi_Clk          hdmi_clk1x_i         0.001           -1.684           (R-R)
+  Axi_Clk          Axi_Clk             10.417            0.422           (R-R)
+  tx_slowclk       tx_slowclk          20.833            9.921           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  hdmi_clk1x_i     hdmi_clk1x_i        0.000            0.307            (R-R)
+  hdmi_clk1x_i     hdmi_clk2x_i        0.000            0.330            (R-R)
+  hdmi_clk1x_i     Axi_Clk             0.000            0.309            (R-R)
+  hdmi_clk1x_i     tx_slowclk          0.000            0.791            (R-R)
+  hdmi_clk2x_i     hdmi_clk2x_i        0.000            0.307            (R-R)
+  Axi_Clk          hdmi_clk1x_i        0.000            0.307            (R-R)
+  Axi_Clk          Axi_Clk             0.000            0.119            (R-R)
+  tx_slowclk       tx_slowclk          0.000            0.307            (R-R)
+
+WARNING(85): Clock domain between hdmi_clk1x_i (rising) and Axi_Clk (rising) may not meet (slack: -1.122 ns) the setup (max) timing requirement
+WARNING(86): Clock domain between hdmi_clk1x_i (rising) and tx_slowclk (rising) may not meet (slack: -3.624 ns) the setup (max) timing requirement
+WARNING(87): Clock domain between Axi_Clk (rising) and hdmi_clk1x_i (rising) may not meet (slack: -1.684 ns) the setup (max) timing requirement
+
+Write Timing Report to "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.timing.rpt" ...
+final timing analysis took 3.42852 seconds.
+	final timing analysis took 3.34375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 773.76 MB, end = 780.288 MB, delta = 6.528 MB
+	final timing analysis peak virtual memory usage = 935.136 MB
+final timing analysis resident set memory usage: begin = 764.9 MB, end = 769.468 MB, delta = 4.568 MB
+	final timing analysis peak resident set memory usage = 891.716 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv".
+Finished writing bitstream file C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.lbf.
+Bitstream generation took 0.862648 seconds.
+	Bitstream generation took 0.84375 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 780.288 MB, end = 830.2 MB, delta = 49.912 MB
+	Bitstream generation peak virtual memory usage = 935.136 MB
+Bitstream generation resident set memory usage: begin = 769.488 MB, end = 817.924 MB, delta = 48.436 MB
+	Bitstream generation peak resident set memory usage = 891.716 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 40.7099 seconds.
+	The entire flow of EFX_PNR took 33.4062 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.556 MB, end = 105.248 MB, delta = 99.692 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 935.136 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.82 MB, end = 111.908 MB, delta = 99.088 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 891.716 MB

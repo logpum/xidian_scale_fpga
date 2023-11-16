@@ -1,0 +1,713 @@
+Efinity Synthesis report for project T35_Sensor_DDR3_LCD_Test
+Version: 2023.1.150.4.10
+Generated at: Nov 02, 2023 22:53:52
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : T35_Sensor_DDR3_LCD_Test
+
+### ### File List (begin) ### ### ###
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:705)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 67
+Total number of FFs with enable signals: 877
+CE signal <n9_2>, number of controlling flip flops: 8
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/n15>, number of controlling flip flops: 21
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/equal_21/n3>, number of controlling flip flops: 1
+CE signal <u_i2c_timing_ctrl_16reg_16bit/i2c_transfer_en>, number of controlling flip flops: 5
+CE signal <u_i2c_timing_ctrl_16reg_16bit/n846>, number of controlling flip flops: 8
+CE signal <ceg_net552>, number of controlling flip flops: 4
+CE signal <ceg_net664>, number of controlling flip flops: 8
+CE signal <u_i2c_timing_ctrl_16reg_16bit/i2c_capture_en>, number of controlling flip flops: 6
+CE signal <u_i2c_timing_ctrl_16reg_16bit/n7>, number of controlling flip flops: 20
+CE signal <ceg_net632>, number of controlling flip flops: 1
+CE signal <ceg_net126>, number of controlling flip flops: 12
+CE signal <ceg_net154>, number of controlling flip flops: 2
+CE signal <u_CMOS_Capture_RAW_Gray/n171>, number of controlling flip flops: 1
+CE signal <ceg_net200>, number of controlling flip flops: 9
+CE signal <u_sensor_frame_count/n110>, number of controlling flip flops: 8
+CE signal <u_afifo_buf/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 29
+CE signal <u_afifo_buf/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 14
+CE signal <ceg_net219>, number of controlling flip flops: 1
+CE signal <ceg_net226>, number of controlling flip flops: 16
+CE signal <ceg_net229>, number of controlling flip flops: 1
+CE signal <u_scaler_gray/u0_data_stream_ctr/w_image_tlast>, number of controlling flip flops: 16
+CE signal <n197>, number of controlling flip flops: 32
+CE signal <ceg_net526>, number of controlling flip flops: 2
+CE signal <u_scaler_gray/u0_data_stream_ctr/equal_59/n5>, number of controlling flip flops: 16
+CE signal <u_scaler_gray/u0_data_stream_ctr/r_image_tlast>, number of controlling flip flops: 16
+CE signal <u_axi4_ctrl/equal_38/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/equal_47/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/n405>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/n363>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/n379>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 13
+CE signal <ceg_net289>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 18
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <ceg_net296>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 22
+CE signal <u_axi4_ctrl/n369>, number of controlling flip flops: 14
+CE signal <u_axi4_ctrl/n381>, number of controlling flip flops: 14
+CE signal <ceg_net401>, number of controlling flip flops: 16
+CE signal <u_lcd_driver/equal_17/n23>, number of controlling flip flops: 14
+CE signal <r_hdmi_rst_n>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6737>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n1373>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1890>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 27
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net26>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net14>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2743>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3576>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4465>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4480>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n4678>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/ceg_net221>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/la_biu_inst/n350>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la0/la_biu_inst/n1251>, number of controlling flip flops: 12
+CE signal <edb_top_inst/ceg_net351>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net348>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la0/la_biu_inst/n1993>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 12
+CE signal <edb_top_inst/ceg_net355>, number of controlling flip flops: 26
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 30
+Total number of FFs with set/reset signals: 1173
+SR signal <DdrCtrl_CFG_RST_N>, number of controlling flip flops: 23
+SR signal <U0_DDR_Reset/u_ddr_reset_sequencer/rstn_dly[1]>, number of controlling flip flops: 3
+SR signal <Axi0ResetReg[2]>, number of controlling flip flops: 234
+SR signal <u_afifo_buf/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 28
+SR signal <u_afifo_buf/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 43
+SR signal <u_scaler_gray/u0_data_stream_ctr/n1703>, number of controlling flip flops: 16
+SR signal <u_scaler_gray/u0_data_stream_ctr/n1704>, number of controlling flip flops: 16
+SR signal <u_scaler_gray/u0_data_stream_ctr/n1712>, number of controlling flip flops: 16
+SR signal <u_scaler_gray/u0_data_stream_ctr/n1713>, number of controlling flip flops: 16
+SR signal <u_scaler_gray/u0_data_stream_ctr/n1702>, number of controlling flip flops: 16
+SR signal <u_scaler_gray/u1_bilinear_gray/u2_cal_bilinear_data/n357>, number of controlling flip flops: 8
+SR signal <u_axi4_ctrl/n1476>, number of controlling flip flops: 1
+SR signal <DdrCtrl_WVALID_0>, number of controlling flip flops: 9
+SR signal <DdrCtrl_RREADY_0>, number of controlling flip flops: 9
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 31
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 37
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 41
+SR signal <u_axi4_ctrl/n1619>, number of controlling flip flops: 1
+SR signal <u_axi4_ctrl/n1469>, number of controlling flip flops: 14
+SR signal <u_axi4_ctrl/n1478>, number of controlling flip flops: 14
+SR signal <r_hdmi_rst_n>, number of controlling flip flops: 27
+SR signal <lcd_de>, number of controlling flip flops: 34
+SR signal <rc_hdmi_tx>, number of controlling flip flops: 15
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 405
+SR signal <edb_top_inst/la0/n2730>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 24
+SR signal <edb_top_inst/la0/n7224>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 25
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n771>, number of controlling flip flops: 37
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i10
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i11
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i12
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i13
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i14
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i15
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i16
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i17
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i18
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i19
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i20
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i21
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i22
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i23
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" removed instance : u_lcd_driver/dff_49/i24
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v (132)" representative instance : u_lcd_driver/dff_49/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_115/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_117/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" removed instance : u_scaler_gray/u0_data_stream_ctr/dff_118/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v (247)" representative instance : u_scaler_gray/u0_data_stream_ctr/dff_116/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_6/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_7/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i16
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i15
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i14
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i13
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i12
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i11
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i10
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_10/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_38/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_38/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i1
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" removed instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v (61)" removed instance : u_axi4_ctrl/dff_5/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v (63)" representative instance : u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/dff_11/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\tmds_channel.v (167)" removed instance : u_rgb2dvi/enc_2/dff_119/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\tmds_channel.v (167)" representative instance : u_rgb2dvi/enc_1/dff_119/i9
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" removed instance : dff_41/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v (545)" representative instance : dff_40/i9
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i2
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i3
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i4
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i5
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i6
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i7
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i8
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" removed instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i9
+@ "C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v (26)" representative instance : u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/dff_6/i1
+FF Output: DdrCtrl_ASIZE_0[0](=0)
+FF Output: DdrCtrl_ALOCK_0[0](=0)
+FF Output: DdrCtrl_AID_0[0](=0)
+FF Output: u_axi4_ctrl/awaddr[0](=0)
+FF Output: u_axi4_ctrl/araddr[0](=0)
+FF Output: DdrCtrl_ALEN_0[6](=0)
+FF Output: DdrCtrl_ALEN_0[7](=0)
+FF Output: DdrCtrl_ASIZE_0[1](=0)
+FF Output: DdrCtrl_ABURST_0[1](=0)
+FF Output: DdrCtrl_ALOCK_0[1](=0)
+FF Output: DdrCtrl_AID_0[1](=0)
+FF Output: DdrCtrl_AID_0[2](=0)
+FF Output: DdrCtrl_AID_0[3](=0)
+FF Output: DdrCtrl_AID_0[4](=0)
+FF Output: DdrCtrl_AID_0[5](=0)
+FF Output: DdrCtrl_AID_0[6](=0)
+FF Output: DdrCtrl_AID_0[7](=0)
+FF Output: u_axi4_ctrl/awaddr[1](=0)
+FF Output: u_axi4_ctrl/awaddr[2](=0)
+FF Output: u_axi4_ctrl/awaddr[3](=0)
+FF Output: u_axi4_ctrl/awaddr[4](=0)
+FF Output: u_axi4_ctrl/awaddr[5](=0)
+FF Output: u_axi4_ctrl/awaddr[6](=0)
+FF Output: u_axi4_ctrl/awaddr[7](=0)
+FF Output: u_axi4_ctrl/awaddr[8](=0)
+FF Output: u_axi4_ctrl/awaddr[9](=0)
+FF Output: u_axi4_ctrl/araddr[1](=0)
+FF Output: u_axi4_ctrl/araddr[2](=0)
+FF Output: u_axi4_ctrl/araddr[3](=0)
+FF Output: u_axi4_ctrl/araddr[4](=0)
+FF Output: u_axi4_ctrl/araddr[5](=0)
+FF Output: u_axi4_ctrl/araddr[6](=0)
+FF Output: u_axi4_ctrl/araddr[7](=0)
+FF Output: u_axi4_ctrl/araddr[8](=0)
+FF Output: u_axi4_ctrl/araddr[9](=0)
+FF Output: DdrCtrl_AADDR_0[26](=0)
+FF Output: DdrCtrl_AADDR_0[27](=0)
+FF Output: DdrCtrl_AADDR_0[28](=0)
+FF Output: DdrCtrl_AADDR_0[29](=0)
+FF Output: DdrCtrl_AADDR_0[30](=0)
+FF Output: DdrCtrl_AADDR_0[31](=0)
+FF Output: DdrCtrl_AADDR_0[0](=0)
+FF Output: DdrCtrl_AADDR_0[1](=0)
+FF Output: DdrCtrl_AADDR_0[2](=0)
+FF Output: DdrCtrl_AADDR_0[3](=0)
+FF Output: DdrCtrl_AADDR_0[4](=0)
+FF Output: DdrCtrl_AADDR_0[5](=0)
+FF Output: DdrCtrl_AADDR_0[6](=0)
+FF Output: DdrCtrl_AADDR_0[7](=0)
+FF Output: DdrCtrl_AADDR_0[8](=0)
+FF Output: DdrCtrl_AADDR_0[9](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[0](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[1](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[2](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[3](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[4](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[5](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[6](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[7](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[8](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.init_srcx_location[9](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/genblk1.temp_srcx_location[1](=0)
+FF Output: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt[2](=0)
+FF Output: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt[3](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[0](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[1](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[2](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[3](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[4](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[5](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[6](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[7](=0)
+FF Output: u_scaler_gray/u1_bilinear_gray/srcx_fix[8](=0)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[0]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[0]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[0]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[1]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[2]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[3]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[4]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[5]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[6]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[7]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[8]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[9]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[10]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/pixel_cnt[11]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[1]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[2]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[3]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[4]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[5]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[6]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[7]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[8]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[9]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[10]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[11]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[12]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[13]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[14]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[15]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[16]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[17]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[18]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[19]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[20]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[21]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[22]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[23]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[24]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[25]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[26]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/delay_cnt[27]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[1]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[2]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[3]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[4]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[5]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[6]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[7]~FF(unreachable)
+FF instance: u_CMOS_Capture_RAW_Gray/cmos_fps_cnt2[8]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_in_href_r~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[0]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[0]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[1]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[2]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[3]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[4]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[5]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[6]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[7]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[8]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[9]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[10]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_ypos[11]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[1]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[2]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[3]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[4]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[5]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[6]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[7]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[8]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[9]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[10]~FF(unreachable)
+FF instance: u_Sensor_Image_XYCrop/image_xpos[11]~FF(unreachable)
+FF instance: u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+FF instance: u_axi4_ctrl/wfifo_cnt[0]~FF(unreachable)
+FF instance: u_axi4_ctrl/wfifo_cnt[1]~FF(unreachable)
+FF instance: u_axi4_ctrl/wfifo_cnt[2]~FF(unreachable)
+FF instance: u_axi4_ctrl/wfifo_cnt[3]~FF(unreachable)
+FF instance: u_axi4_ctrl/wfifo_cnt[4]~FF(unreachable)
+FF instance: u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+FF instance: u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+T35_Sensor_DDR3_LCD_Test:T35_Sensor_DDR3_LCD_Test               1819(47)      768(8)    1764(20)     75(0)      9(0)
+ +U0_DDR_Reset:etx_ddr3_reset_controller                           26(0)       21(0)       11(0)      0(0)      0(0)
+  +u_ddr_reset_sequencer:ddr_reset_sequencer_cc81cd7a37a3...      26(26)      21(21)      11(11)      0(0)      0(0)
+ +u_i2c_timing_ctrl_16reg_16bit:i2c_timing_ctrl_reg16_dat...      71(71)      41(41)    242(242)      0(0)      0(0)
+ +u_CMOS_Capture_RAW_Gray:CMOS_Capture_RAW_Gray(CMOS_FRAM...      35(35)      11(11)      33(33)      0(0)      0(0)
+ +u_sensor_frame_count:sensor_frame_count(CLOCK_MAIN=9600...      47(47)      35(35)      53(53)      0(0)      0(0)
+ +u_afifo_buf:afifo_buf                                           132(0)       42(0)       89(0)     16(0)      0(0)
+  +u_efx_fifo_top:efx_fifo_top_b81704d390304843872ccf7d63...      132(4)       42(0)       89(0)     16(0)      0(0)
+   +xefx_fifo_ram:efx_fifo_ram_b81704d390304843872ccf7d63...        0(0)        0(0)        8(8)    16(16)      0(0)
+   +xefx_fifo_ctl:efx_fifo_ctl_b81704d390304843872ccf7d63...     128(72)      42(42)      81(36)      0(0)      0(0)
+    +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_b81704d390...        0(0)        0(0)      13(13)      0(0)      0(0)
+    +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_b81704d39...      28(28)        0(0)        6(6)      0(0)      0(0)
+    +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_b81704d3903...        0(0)        0(0)      13(13)      0(0)      0(0)
+    +genblk7.wr2rd_addr_sync:efx_fifo_datasync_b81704d390...      28(28)        0(0)      13(13)      0(0)      0(0)
+ +u_scaler_gray:scaler_gray(BRAM_DEEPTH=2560)                    345(18)     356(15)     265(26)     32(0)      9(0)
+  +u0_data_stream_ctr:data_stream_ctr(ADJUST_MODE=1,BRAM_...    130(130)      89(89)    132(132)     32(0)      0(0)
+   +u_simple_dual_port_ram00:simple_dual_port_ram(ADDR_WI...        0(0)        0(0)        0(0)      8(8)      0(0)
+   +u_simple_dual_port_ram01:simple_dual_port_ram(ADDR_WI...        0(0)        0(0)        0(0)      8(8)      0(0)
+   +u_simple_dual_port_ram10:simple_dual_port_ram(ADDR_WI...        0(0)        0(0)        0(0)      8(8)      0(0)
+   +u_simple_dual_port_ram11:simple_dual_port_ram(ADDR_WI...        0(0)        0(0)        0(0)      8(8)      0(0)
+  +u1_bilinear_gray:bilinear_gray                                 197(0)      252(0)      107(0)      0(0)      9(0)
+   +u0_cal_bilinear_srcxy:cal_bilinear_srcxy                    105(105)    129(129)      92(92)      0(0)      1(1)
+   +u1_cal_bilinear_weight:cal_bilinear_weight                    16(16)      50(50)        0(0)      0(0)      4(4)
+   +u2_cal_bilinear_data:cal_bilinear_data                        76(76)      73(73)      15(15)      0(0)      4(4)
+ +u_axi4_ctrl:axi4_ctrl                                         423(207)      95(26)     182(70)     16(0)      0(0)
+  +u_W0_FIFO:W0_FIFO                                              108(0)       40(0)       54(0)      8(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_32dac05ec7de4bb49e9690e17...      108(4)       40(0)       54(0)      8(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_32dac05ec7de4bb49e9690e17...        0(0)        0(0)        0(0)      8(8)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_32dac05ec7de4bb49e9690e17...     104(68)      40(40)      54(22)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_32dac05ec...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_32dac05e...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_32dac05ec...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32dac...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32da...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32d...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_32dac05ec7...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_32dac05ec...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_32dac05ec7...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32dac...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32da...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32d...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_32...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+  +u_R0_FIFO:R0_FIFO                                              108(0)       29(0)       58(0)      8(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_8d4a982a418f47cc89c8dfe6e...      108(4)       29(0)       58(0)      8(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_8d4a982a418f47cc89c8dfe6e...        0(0)        0(0)        0(0)      8(8)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_8d4a982a418f47cc89c8dfe6e...     104(68)      29(29)      58(26)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_8d4a982a4...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_8d4a982a...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_8d4a982a4...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4a9...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4a...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_8d4a982a41...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_8d4a982a4...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_8d4a982a41...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4a9...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4a...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d4...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8d...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_8...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+ +u_lcd_driver:lcd_driver                                         45(45)      22(22)    102(102)      0(0)      0(0)
+ +u_rgb2dvi:rgb2dvi(ENABLE_OSERDES=0)                              44(0)       37(0)       67(0)      0(0)      0(0)
+  +enc_0:tmds_channel                                             15(15)        9(9)      15(15)      0(0)      0(0)
+  +enc_1:tmds_channel                                             15(15)        5(5)      12(12)      0(0)      0(0)
+  +enc_2:tmds_channel                                             14(14)      23(23)      40(40)      0(0)      0(0)
+ +edb_top_inst:edb_top                                          604(604)    100(100)    700(700)    11(11)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops   Memory Ports    Multipliers
+          -----     ----------   ------------    -----------
+        Axi_Clk            939            104              9
+   hdmi_clk1x_i            151              8              0
+   hdmi_clk2x_i             32              0              0
+      cmos_pclk             93             16              0
+ jtag_inst1_TCK            405              0              0
+     tx_slowclk            199             22              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram (C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$f12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$g1
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$e12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$d12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$2
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$b12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$c12
+
+2. u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram (C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$f12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$g1
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$e12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$d12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$2
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$b12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$c12
+
+3. u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram (C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$f12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$g1
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$e12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$d12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$2
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$b12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$c12
+
+4. u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram (C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$f12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$g1
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$e12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$d12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$2
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$b12
+	EFX_RAM_5K: u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$c12
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F324
+project : T35_Sensor_DDR3_LCD_Test
+root : T35_Sensor_DDR3_LCD_Test
+I : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity
+I : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/ip/etx_ddr3_reset_controller
+I : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/ip/W0_FIFO
+I : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/ip/R0_FIFO
+I : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/ip/afifo_buf
+output-dir : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow
+work-dir : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_dbg
+write-efx-verilog : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_dbg/T35_Sensor_DDR3_LCD_Test.dbg.map.v
+binary-db : C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_dbg/T35_Sensor_DDR3_LCD_Test.dbg.vdb
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	183
+OUTPUT PORTS    : 	287
+
+EFX_ADD         : 	768
+EFX_LUT4        : 	1764
+   1-2  Inputs  : 	543
+   3    Inputs  : 	480
+   4    Inputs  : 	741
+EFX_MULT        : 	9
+EFX_FF          : 	1819
+EFX_RAM_5K      : 	75
+EFX_GBUFCE      : 	6
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 7s
+Elapsed synthesis time : 8s

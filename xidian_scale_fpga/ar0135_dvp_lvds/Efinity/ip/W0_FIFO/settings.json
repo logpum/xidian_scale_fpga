@@ -1,0 +1,45 @@
+{
+    "args": [
+        "-o",
+        "W0_FIFO",
+        "--base_path",
+        "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpvls9ygo6\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "12",
+        "DATA_WIDTH": "8",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "8",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpvls9ygo6\\ip\\W0_FIFO\\W0_FIFO.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpvls9ygo6\\ip\\W0_FIFO\\W0_FIFO_tmpl.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpvls9ygo6\\ip\\W0_FIFO\\W0_FIFO_define.vh",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpvls9ygo6\\ip\\W0_FIFO\\W0_FIFO_tmpl.vhd"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-10-19T05:40:34.619333"
+}

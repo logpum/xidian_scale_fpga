@@ -1,0 +1,2 @@
+Instance Name,Instance Type,Severity,Rule,Description
+DdrCtrl,clock,warning,clock_rule_undefined_name,No clock source defined (Axi0Clk)

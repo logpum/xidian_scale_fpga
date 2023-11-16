@@ -1,0 +1,365 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.4.10 
+Compiled: Sep  6 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.dbg.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0601592 seconds.
+	VDB Netlist Checker took 0.0625 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 23.52 MB, end = 23.536 MB, delta = 0.016 MB
+	VDB Netlist Checker peak virtual memory usage = 52.636 MB
+VDB Netlist Checker resident set memory usage: begin = 34.98 MB, end = 35.288 MB, delta = 0.308 MB
+	VDB Netlist Checker peak resident set memory usage = 62.416 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv".
+Creating interface clock pin clk_cmos.
+Creating interface clock buffer clk_cmos~CLKBUF.
+Creating interface clock buffer hdmi_clk5x_i~CLKBUF.
+Creating interface clock buffer tx_fastclk~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #3(pll_clk_200m) has no fanout.
+Removing input.
+logical_block #225(DdrCtrl_RID_0[7]) has no fanout.
+Removing input.
+logical_block #226(DdrCtrl_RID_0[6]) has no fanout.
+Removing input.
+logical_block #227(DdrCtrl_RID_0[5]) has no fanout.
+Removing input.
+logical_block #228(DdrCtrl_RID_0[4]) has no fanout.
+Removing input.
+logical_block #229(DdrCtrl_RID_0[3]) has no fanout.
+Removing input.
+logical_block #230(DdrCtrl_RID_0[2]) has no fanout.
+Removing input.
+logical_block #231(DdrCtrl_RID_0[1]) has no fanout.
+Removing input.
+logical_block #232(DdrCtrl_RID_0[0]) has no fanout.
+Removing input.
+logical_block #361(DdrCtrl_RLAST_0) has no fanout.
+Removing input.
+logical_block #364(DdrCtrl_RRESP_0[1]) has no fanout.
+Removing input.
+logical_block #365(DdrCtrl_RRESP_0[0]) has no fanout.
+Removing input.
+logical_block #366(DdrCtrl_BID_0[7]) has no fanout.
+Removing input.
+logical_block #367(DdrCtrl_BID_0[6]) has no fanout.
+Removing input.
+logical_block #368(DdrCtrl_BID_0[5]) has no fanout.
+Removing input.
+logical_block #369(DdrCtrl_BID_0[4]) has no fanout.
+Removing input.
+logical_block #370(DdrCtrl_BID_0[3]) has no fanout.
+Removing input.
+logical_block #371(DdrCtrl_BID_0[2]) has no fanout.
+Removing input.
+logical_block #372(DdrCtrl_BID_0[1]) has no fanout.
+Removing input.
+logical_block #373(DdrCtrl_BID_0[0]) has no fanout.
+Removing input.
+logical_block #400(cmos_ctl1) has no fanout.
+Removing input.
+logical_block #460(jtag_inst1_DRCK) has no fanout.
+Removing input.
+logical_block #462(jtag_inst1_RUNTEST) has no fanout.
+Removing input.
+logical_block #467(jtag_inst1_TMS) has no fanout.
+Removing input.
+Pass 0: Swept away 24 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 24 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 24 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.dbg.vdb".
+Netlist pre-processing took 0.18757 seconds.
+	Netlist pre-processing took 0.171875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 11.868 MB, end = 33.788 MB, delta = 21.92 MB
+	Netlist pre-processing peak virtual memory usage = 52.636 MB
+Netlist pre-processing resident set memory usage: begin = 23.488 MB, end = 45.46 MB, delta = 21.972 MB
+	Netlist pre-processing peak resident set memory usage = 62.416 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.net_proto" took 0.006 seconds
+Creating IO constraints file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.io_place'
+Packing took 0.0307931 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 30.144 MB, end = 33.78 MB, delta = 3.636 MB
+	Packing peak virtual memory usage = 52.636 MB
+Packing resident set memory usage: begin = 41.864 MB, end = 45.292 MB, delta = 3.428 MB
+	Packing peak resident set memory usage = 62.416 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.net_proto
+Read proto netlist for file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.139 seconds
+Packed netlist loading took 0.161951 seconds.
+	Packed netlist loading took 0.125 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 33.78 MB, end = 88.744 MB, delta = 54.964 MB
+	Packed netlist loading peak virtual memory usage = 127.888 MB
+Packed netlist loading resident set memory usage: begin = 45.296 MB, end = 98.564 MB, delta = 53.268 MB
+	Packed netlist loading peak resident set memory usage = 137.612 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+WARNING(1): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid object(s) found for 'pll_clk_200m'
+WARNING(2): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid object(s) found for 'Ddr_Clk'
+WARNING(5): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] No valid pin(s) found for clock
+WARNING(6): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:15] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(8): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:32] Unable to run 'create_clock' constraint due to warnings found
+WARNING(9): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(10): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] No valid object(s) found for ''
+WARNING(11): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] set_input_delay: No valid input port(s) found
+WARNING(12): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(13): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(14): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] No valid object(s) found for ''
+WARNING(15): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] set_input_delay: No valid input port(s) found
+WARNING(16): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:153] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(17): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(18): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] No valid object(s) found for ''
+WARNING(19): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] set_input_delay: No valid input port(s) found
+WARNING(20): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:158] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(21): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(22): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] No valid object(s) found for ''
+WARNING(23): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] set_input_delay: No valid input port(s) found
+WARNING(24): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:159] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(25): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(26): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] No valid object(s) found for ''
+WARNING(27): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] set_input_delay: No valid input port(s) found
+WARNING(28): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:160] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(29): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(30): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] No valid object(s) found for ''
+WARNING(31): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] set_input_delay: No valid input port(s) found
+WARNING(32): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:161] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(34): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(35): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] No valid object(s) found for ''
+WARNING(36): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] set_input_delay: No valid input port(s) found
+WARNING(37): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:162] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(38): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(39): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(40): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] No valid object(s) found for ''
+WARNING(41): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] set_input_delay: No valid input port(s) found
+WARNING(42): [SDC C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:163] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+7 clocks (including virtual clocks), 132 inputs and 268 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv".
+Writing IO placement constraints to 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.interface.io'.
+
+Reading placement constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.interface.io'.
+
+Reading placement constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.io_place'.
+WARNING(43): Clock driver jtag_inst1_TCK should use the dedicated clock pad.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 81 synchronizers as follows: 
+	Synchronizer 0:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[12]~FF_frt_0
+	Synchronizer 1:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF_frt_32
+	Synchronizer 2:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 3:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF
+	Synchronizer 4:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF
+	Synchronizer 5:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[13]~FF
+	Synchronizer 6:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[11]~FF_frt_1
+	Synchronizer 7:  u_afifo_buf/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_afifo_buf/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 8:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[10]~FF_frt_2
+	Synchronizer 9:  u_afifo_buf/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_afifo_buf/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 10:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][13]~FF
+	Synchronizer 11:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 12:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][12]~FF
+	Synchronizer 13:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 14:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 15:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 16:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 17:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 18:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 19:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 20:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 21:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 22:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 23:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][12]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[12]~FF
+	Synchronizer 24:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[13]~FF
+	Synchronizer 25:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 26:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 27:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 28:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 29:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 30:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 31:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 32:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 33:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 34:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][11]~FF
+	Synchronizer 35:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 36:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF
+	Synchronizer 37:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 38:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][10]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[10]~FF
+	Synchronizer 39:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 40:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 41:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 42:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 43:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 44:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 45:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 46:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 47:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 48:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 49:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 50:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 51:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 52:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 53:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF
+	Synchronizer 54:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 55:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][10]~FF
+	Synchronizer 56:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][11]~FF
+	Synchronizer 57:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][12]~FF
+	Synchronizer 58:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][13]~FF
+	Synchronizer 59:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 60:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 61:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 62:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 63:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF_frt_3
+	Synchronizer 64:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][10]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[10]~FF
+	Synchronizer 65:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[11]~FF
+	Synchronizer 66:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 67:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][11]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[11]~FF
+	Synchronizer 68:  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[12]~FF
+	Synchronizer 69:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 70:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 71:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 72:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 73:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 74:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 75:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 76:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 77:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 78:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][10]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[10]~FF
+	Synchronizer 79:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][11]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[11]~FF
+	Synchronizer 80:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][12]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[12]~FF
+Create C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 8 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      279171            2368         3.3%
+          2      120901            2059         7.5%
+          3       74362            2059        13.3%
+          4       65497            1947        17.5%
+          5       73090            1523        20.5%
+          6       76074            1710        27.3%
+          7       69399             215        36.8%
+          8       72178             824        48.9%
+          9       67763            -624        56.3%
+         10       65166             411        61.9%
+         11       68848            -277        65.0%
+         12       76616            -570        67.3%
+         13       80704            -912        70.2%
+         14       85768             523        70.5%
+         15       85275            -305        71.1%
+         16       88620           -1042        72.8%
+         17       95038            -124        73.2%
+         18       90265              22        73.8%
+         19       93493            -310        76.4%
+         20       89757            -204        76.4%
+         21       89789            -617        77.0%
+         22       89469            -281        78.0%
+         23       67410           -2464        82.1%
+         24       68550           -2307        84.1%
+         25       68887           -3436        84.6%
+         26       68897           -2378        85.1%
+         27       68965           -2570        85.8%
+         28       68351           -2560        86.5%
+         29       67966           -2391        87.5%
+         30       66848           -2484        88.9%
+         31       67088           -3259        90.2%
+         32       66053           -3009        90.6%
+         33       67372           -3009        91.4%
+         34       66663           -2605        91.9%
+         35       66639           -3241        92.6%
+         36       66902           -3007        93.4%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       68550            4171        30.0
+          1       53201            3986        30.0
+          2       36527            4238        30.0
+          3       35530            4039        30.0
+          4       33620            3992        30.0
+          5       31613            3986        30.0
+          6       30311            3986        30.0
+          7       29377            4197        30.0
+          8       29081            4197        30.0
+          9       28162            4197        30.0
+         10       28207            3986        30.0
+         11       27504            3776        30.0
+         12       27296            3776        30.0
+         13       27144            3986        30.0
+         14       26717            3986        30.0
+         15       26388            3776        30.0
+         16       25909            3806        30.0
+         17       25224            3806        29.8
+         18       25301            3806        29.5
+         19       24842            3806        28.9
+         20       25031            3806        28.4
+         21       24615            3806        27.7
+         22       24877            3806        27.0
+         23       24247            3806        26.1
+         24       24610            3806        25.4
+         25       23822            3806        24.4
+         26       24349            3986        23.5
+         27       23809            3776        22.6
+         28       24126            3776        21.6
+         29       23488            3776        20.6
+         30       23758            3565        19.6
+         31       23051            3776        18.1
+         32       23296            3565        16.6
+Generate C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow\T35_Sensor_DDR3_LCD_Test_after_qp.qdelay
+Placement successful: 3401 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.157017 at 130,61
+Congestion-weighted HPWL per net: 4.74888
+
+Reading placement constraints from 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.qplace'.
+Finished Realigning Types (701 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.place'
+Placement took 12.2252 seconds.
+	Placement took 9.34375 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 105.556 MB, end = 127.244 MB, delta = 21.688 MB
+	Placement peak virtual memory usage = 352.232 MB
+Placement resident set memory usage: begin = 114.684 MB, end = 132.272 MB, delta = 17.588 MB
+	Placement peak resident set memory usage = 353.8 MB
+***** Ending stage placement *****
+

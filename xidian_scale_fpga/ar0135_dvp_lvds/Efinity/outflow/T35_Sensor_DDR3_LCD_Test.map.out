@@ -1,0 +1,713 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150.4.10
+[EFX-0000 INFO] Compiled: Sep  6 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/T35_Sensor_DDR3_LCD_Test.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\I2C_AR0135_1280720_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\CMOS_Capture_RAW_Gray.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\Sensor_Image_XYCrop.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\sensor_frame_count.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v' (VERI-1482)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(477): INFO: undeclared symbol 'lcd_xpos', assumed default net type 'wire' (VERI-2561)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(478): INFO: undeclared symbol 'lcd_ypos', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\scaler_gray.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\bilinear_gray.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\ar0135_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\de_gen.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\tmds_channel.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v' (VERI-1482)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v(67): INFO: analyzing included file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source/lcd_para.v' (VERI-1328)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v(67): INFO: back to file 'C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v' (VERI-1482)
+INFO: Analysis took 0.0445281 seconds.
+INFO: 	Analysis took 0.046875 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.912 MB, end = 57.504 MB, delta = 1.592 MB
+INFO: 	Analysis peak virtual memory usage = 57.504 MB
+INFO: Analysis resident set memory usage: begin = 59.336 MB, end = 62.184 MB, delta = 2.848 MB
+INFO: 	Analysis peak resident set memory usage = 62.184 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(528): WARNING: port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(7): INFO: compiling module 'T35_Sensor_DDR3_LCD_Test' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(49): INFO: compiling module 'etx_ddr3_reset_controller' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(116): INFO: compiling module 'ddr_reset_sequencer_cc81cd7a37a34b0084a3736b196a739f' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(163): WARNING: expression size 64 truncated to fit in target size 20 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v(33): INFO: compiling module 'i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=10000)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\I2C_AR0135_1280720_Config.v(17): INFO: compiling module 'I2C_AR0135_1280720_Config' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\cmos_i2c\CMOS_Capture_RAW_Gray.v(25): INFO: compiling module 'CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=4'b011,CMOS_PCLK_FREQ=74250000)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\Sensor_Image_XYCrop.v(32): INFO: compiling module 'Sensor_Image_XYCrop(IMAGE_VSIZE_SOURCE=720,IMAGE_YSIZE_TARGET=720)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\sensor_frame_count.v(21): INFO: compiling module 'sensor_frame_count(CLOCK_MAIN=96000000)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(49): INFO: compiling module 'afifo_buf' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(376): INFO: compiling module 'efx_fifo_top_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_1' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(668): INFO: compiling module 'efx_fifo_ram_b81704d390304843872ccf7d6376406d(MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(986): INFO: compiling module 'efx_fifo_ctl_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_2' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(1262): WARNING: expression size 32 truncated to fit in target size 14 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(1263): WARNING: expression size 32 truncated to fit in target size 14 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(287): INFO: compiling module 'efx_fifo_bin2gray_b81704d390304843872ccf7d6376406d(WIDTH=14)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(116): INFO: compiling module 'efx_fifo_datasync_b81704d390304843872ccf7d6376406d(STAGE=2,WIDTH=14)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=14)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=12)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=11)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=10)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=8)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=7)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=6)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=4)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=3)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(199): INFO: compiling module 'efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=2)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(90): WARNING: actual bit length 13 differs from formal bit length 14 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(93): WARNING: actual bit length 13 differs from formal bit length 14 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\scaler_gray.v(1): INFO: compiling module 'scaler_gray(BRAM_DEEPTH=2560)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(1): INFO: compiling module 'data_stream_ctr(ADJUST_MODE=1,BRAM_DEEPTH=2560)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(142): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(224): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(226): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(230): WARNING: expression size 18 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(232): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(236): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(238): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(242): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(244): WARNING: expression size 18 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v(2): INFO: compiling module 'simple_dual_port_ram(ADDR_WIDTH=12)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\simple_dual_port_ram.v(19): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(320): WARNING: actual bit length 16 differs from formal bit length 12 for port 'waddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(325): WARNING: actual bit length 16 differs from formal bit length 12 for port 'raddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(339): WARNING: actual bit length 16 differs from formal bit length 12 for port 'waddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(344): WARNING: actual bit length 16 differs from formal bit length 12 for port 'raddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(357): WARNING: actual bit length 16 differs from formal bit length 12 for port 'waddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(362): WARNING: actual bit length 16 differs from formal bit length 12 for port 'raddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(375): WARNING: actual bit length 16 differs from formal bit length 12 for port 'waddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\data_stream_ctr.v(380): WARNING: actual bit length 16 differs from formal bit length 12 for port 'raddr' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\bilinear_gray.v(1): INFO: compiling module 'bilinear_gray' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_srcxy.v(3): INFO: compiling module 'cal_bilinear_srcxy' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_weight.v(1): INFO: compiling module 'cal_bilinear_weight' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_data.v(1): INFO: compiling module 'cal_bilinear_data' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\Bilinear_interpolation\cal_bilinear_data.v(56): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(380): WARNING: actual bit length 32 differs from formal bit length 16 for port 'src_width_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(381): WARNING: actual bit length 32 differs from formal bit length 16 for port 'src_height_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(382): WARNING: actual bit length 32 differs from formal bit length 16 for port 'dest_width_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(383): WARNING: actual bit length 32 differs from formal bit length 16 for port 'dest_height_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(385): WARNING: actual bit length 32 differs from formal bit length 20 for port 'scale_factorx_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(386): WARNING: actual bit length 32 differs from formal bit length 20 for port 'scale_factory_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v(2): INFO: compiling module 'axi4_ctrl' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(49): INFO: compiling module 'W0_FIFO' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_3' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_32dac05ec7de4bb49e9690e177204775(MODE="FWFT",WR_DEPTH=4096,RD_DEPTH=256,RDATA_WIDTH=128,WADDR_WIDTH=12,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=16)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_4' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(1262): WARNING: expression size 32 truncated to fit in target size 13 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(1263): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=8)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=7)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=6)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=4)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=3)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=2)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=12)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=11)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=10)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(90): WARNING: actual bit length 12 differs from formal bit length 13 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(93): WARNING: actual bit length 8 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v(132): WARNING: actual bit length 12 differs from formal bit length 8 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(49): INFO: compiling module 'R0_FIFO' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_5' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_8d4a982a418f47cc89c8dfe6e6efc233(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=4096,WDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=16)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_6' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(1256): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(1257): WARNING: expression size 32 truncated to fit in target size 13 (VERI-1209)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=12)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=11)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=10)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=8)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=7)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=6)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=4)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=3)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=2)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=9)' (VERI-1018)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(90): WARNING: actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(93): WARNING: actual bit length 12 differs from formal bit length 13 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v(297): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\axi4_ctrl.v(315): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\lcd_driver.v(36): INFO: compiling module 'lcd_driver' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(477): WARNING: actual bit length 1 differs from formal bit length 12 for port 'lcd_xpos' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(478): WARNING: actual bit length 1 differs from formal bit length 12 for port 'lcd_ypos' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(7): INFO: compiling module 'rgb2dvi(ENABLE_OSERDES=0)' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\tmds_channel.v(4): INFO: compiling module 'tmds_channel' (VERI-1018)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(50): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(52): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(58): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(60): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(66): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\hdmi_ip\rgb2dvi.v(68): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(510): WARNING: actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(546): WARNING: expression size 10 truncated to fit in target size 5 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(547): WARNING: expression size 10 truncated to fit in target size 5 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(548): WARNING: expression size 10 truncated to fit in target size 5 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(549): WARNING: expression size 10 truncated to fit in target size 5 (VERI-1209)
+C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v(508): WARNING: input port 'SerialClk' is not connected on this instance (VDB-1013)
+INFO: Elaboration took 0.118129 seconds.
+INFO: 	Elaboration took 0.140625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 57.504 MB, end = 75.98 MB, delta = 18.476 MB
+INFO: 	Elaboration peak virtual memory usage = 75.98 MB
+INFO: Elaboration resident set memory usage: begin = 62.196 MB, end = 80.784 MB, delta = 18.588 MB
+INFO: 	Elaboration peak resident set memory usage = 80.784 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[6]' wire 'lvds_tx_clk_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[5]' wire 'lvds_tx_clk_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[4]' wire 'lvds_tx_clk_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[3]' wire 'lvds_tx_clk_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[2]' wire 'lvds_tx_clk_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[1]' wire 'lvds_tx_clk_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[0]' wire 'lvds_tx_clk_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[6]' wire 'lvds_tx0_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[5]' wire 'lvds_tx0_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[4]' wire 'lvds_tx0_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[3]' wire 'lvds_tx0_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[2]' wire 'lvds_tx0_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[1]' wire 'lvds_tx0_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[0]' wire 'lvds_tx0_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[6]' wire 'lvds_tx1_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[5]' wire 'lvds_tx1_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[4]' wire 'lvds_tx1_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[3]' wire 'lvds_tx1_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[2]' wire 'lvds_tx1_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[1]' wire 'lvds_tx1_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[0]' wire 'lvds_tx1_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[6]' wire 'lvds_tx2_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[5]' wire 'lvds_tx2_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[4]' wire 'lvds_tx2_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[3]' wire 'lvds_tx2_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[2]' wire 'lvds_tx2_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[1]' wire 'lvds_tx2_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[0]' wire 'lvds_tx2_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[6]' wire 'lvds_tx3_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[5]' wire 'lvds_tx3_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[4]' wire 'lvds_tx3_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[3]' wire 'lvds_tx3_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[2]' wire 'lvds_tx3_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[1]' wire 'lvds_tx3_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[0]' wire 'lvds_tx3_DATA[0]' is not driven.
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0120922 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 77.72 MB, end = 77.72 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 77.72 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 82.828 MB, end = 82.848 MB, delta = 0.02 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 82.848 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:705)
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[6]' wire 'lvds_tx_clk_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[5]' wire 'lvds_tx_clk_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[4]' wire 'lvds_tx_clk_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[3]' wire 'lvds_tx_clk_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[2]' wire 'lvds_tx_clk_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[1]' wire 'lvds_tx_clk_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx_clk_DATA[0]' wire 'lvds_tx_clk_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[6]' wire 'lvds_tx0_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[5]' wire 'lvds_tx0_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[4]' wire 'lvds_tx0_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[3]' wire 'lvds_tx0_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[2]' wire 'lvds_tx0_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[1]' wire 'lvds_tx0_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx0_DATA[0]' wire 'lvds_tx0_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[6]' wire 'lvds_tx1_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[5]' wire 'lvds_tx1_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[4]' wire 'lvds_tx1_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[3]' wire 'lvds_tx1_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[2]' wire 'lvds_tx1_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[1]' wire 'lvds_tx1_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx1_DATA[0]' wire 'lvds_tx1_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[6]' wire 'lvds_tx2_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[5]' wire 'lvds_tx2_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[4]' wire 'lvds_tx2_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[3]' wire 'lvds_tx2_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[2]' wire 'lvds_tx2_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[1]' wire 'lvds_tx2_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx2_DATA[0]' wire 'lvds_tx2_DATA[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[6]' wire 'lvds_tx3_DATA[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[5]' wire 'lvds_tx3_DATA[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[4]' wire 'lvds_tx3_DATA[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[3]' wire 'lvds_tx3_DATA[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[2]' wire 'lvds_tx3_DATA[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[1]' wire 'lvds_tx3_DATA[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_tx3_DATA[0]' wire 'lvds_tx3_DATA[0]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : bit_xor. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:298)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[31]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[30]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[29]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[28]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[27]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[26]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[25]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[24]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[23]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[22]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[21]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[20]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[19]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[18]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[17]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[16]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[15]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[14]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[13]. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:299)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/afifo_buf\afifo_buf.v:82)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_Sensor_DDR3_LCD_Test"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_cc81cd7a37a34b0084a3736b196a739f" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_cc81cd7a37a34b0084a3736b196a739f" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=10000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=10000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (data_island_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (data_island_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (data_island_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (data_island_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (mode[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_0' input pin tied to constant (mode[2]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (data_island_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (data_island_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (data_island_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (data_island_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (mode[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_1' input pin tied to constant (mode[2]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (data_island_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (data_island_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (data_island_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (data_island_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (mode[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc_2' input pin tied to constant (mode[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[32]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[33]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[34]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[35]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[36]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[37]=1).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[38]=0).
+[EFX-0266 WARNING] Module Instance 'u_i2c_timing_ctrl_16reg_16bit' input pin tied to constant (i2c_config_data[39]=0).
+[EFX-0266 WARNING] Module Instance 'u_CMOS_Capture_RAW_Gray' input pin tied to constant (clk_cmos=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[4]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[8]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[9]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[10]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[11]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[12]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[13]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[14]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_width_i[15]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[4]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[6]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[7]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[8]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[9]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[10]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[11]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[12]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[13]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[14]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (src_height_i[15]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[4]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[8]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[9]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[10]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[11]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[12]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[13]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[14]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_width_i[15]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[3]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[4]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[6]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[8]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[9]=1).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[10]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[11]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[12]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[13]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[14]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (dest_height_i[15]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[4]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_scaler_gray' input pin tied to constant (scale_factorx_i[8]=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_rgb2dvi.SerialClk'. (C:\Users\Yuanbing Ouyang\Desktop\xidianFPGA\T35\scale\01efx_bilinear_scaler_hdmi\ar0135_dvp_lvds\Source\T35_Sensor_DDR3_LCD_Test.v:508)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=4'b011,CMOS_PCLK_FREQ=74250000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=4'b011,CMOS_PCLK_FREQ=74250000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_VSIZE_SOURCE=720,IMAGE_YSIZE_TARGET=720)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_VSIZE_SOURCE=720,IMAGE_YSIZE_TARGET=720)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sensor_frame_count(CLOCK_MAIN=96000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sensor_frame_count(CLOCK_MAIN=96000000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b81704d390304843872ccf7d6376406d(MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b81704d390304843872ccf7d6376406d(MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_b81704d390304843872ccf7d6376406d(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_b81704d390304843872ccf7d6376406d(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_b81704d390304843872ccf7d6376406d(STAGE=2,WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_b81704d390304843872ccf7d6376406d(STAGE=2,WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b81704d390304843872ccf7d6376406d(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b81704d390304843872ccf7d6376406d_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "afifo_buf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "afifo_buf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(ADDR_WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(ADDR_WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_stream_ctr(ADJUST_MODE=1,BRAM_DEEPTH=2560)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_stream_ctr(ADJUST_MODE=1,BRAM_DEEPTH=2560)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_srcxy" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_srcxy" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_weight" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_weight" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_data" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "cal_bilinear_data" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bilinear_gray" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bilinear_gray" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "scaler_gray(BRAM_DEEPTH=2560)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "scaler_gray(BRAM_DEEPTH=2560)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_32dac05ec7de4bb49e9690e177204775(MODE="FWFT",WR_DEPTH=4096,RD_DEPTH=256,RDATA_WIDTH=128,WADDR_WIDTH=12,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=16)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 4095 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 7 : 0
+### 7:0
+### 15:0
+### 255:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 255 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 15 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 7 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_32dac05ec7de4bb49e9690e177204775(MODE="FWFT",WR_DEPTH=4096,RD_DEPTH=256,RDATA_WIDTH=128,WADDR_WIDTH=12,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_32dac05ec7de4bb49e9690e177204775(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_32dac05ec7de4bb49e9690e177204775(STAGE=2,WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_32dac05ec7de4bb49e9690e177204775(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_32dac05ec7de4bb49e9690e177204775_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_8d4a982a418f47cc89c8dfe6e6efc233(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=4096,WDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=16)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 4095 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 7 : 0
+### 7:0
+### 15:0
+### 255:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 255 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 15 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 7 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_8d4a982a418f47cc89c8dfe6e6efc233(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=4096,WDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8d4a982a418f47cc89c8dfe6e6efc233(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8d4a982a418f47cc89c8dfe6e6efc233(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_8d4a982a418f47cc89c8dfe6e6efc233_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_Sensor_DDR3_LCD_Test" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 147 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_Sensor_DDR3_LCD_Test" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 1136, ed: 3420, lv: 9, pw: 4600.21
+[EFX-0000 INFO] ... LUT mapping end (Real time : 5s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 1227 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n164 with 169 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n7 with 143 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n8 with 32 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 7 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port tx_slowclk is unconnected and will be removed
+WARNING: Input/Inout Port tx_fastclk is unconnected and will be removed
+WARNING: Input/Inout Port pll_clk_200m is unconnected and will be removed
+WARNING: Input/Inout Port hdmi_clk5x_i is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RLAST_0 is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_ctl1 is unconnected and will be removed
+INFO: Found 24 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.043578 seconds.
+INFO: 	VDB Netlist Checker took 0.03125 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 111.396 MB, end = 111.396 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 126.48 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 118.296 MB, end = 118.36 MB, delta = 0.064 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 128.936 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'T35_Sensor_DDR3_LCD_Test' to Verilog file 'C:/Users/Yuanbing Ouyang/Desktop/xidianFPGA/T35/scale/01efx_bilinear_scaler_hdmi/ar0135_dvp_lvds/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	668
+[EFX-0000 INFO] EFX_LUT4        : 	1065
+[EFX-0000 INFO] EFX_MULT        : 	9
+[EFX-0000 INFO] EFX_FF          : 	1212
+[EFX-0000 INFO] EFX_RAM_5K      : 	64
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 

@@ -1,0 +1,17 @@
+[dumpfile] "Z:\OneDrive - tec(ic)\FPGA\ouyangyuanbin\efx_bilinear_scaler\02_AR0135_DVP_DDR3_LVDS_1024600\Efinity\la1_waveform.vcd"
+[dumpfile_mtime] "Fri Oct 20 09:53:15 2023"
+[dumpfile_size] 11424
+[savefile] "Z:\OneDrive - tec(ic)\FPGA\ouyangyuanbin\efx_bilinear_scaler\02_AR0135_DVP_DDR3_LVDS_1024600\Efinity\la1_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 4000 8096 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\u_Sensor_Image_XYCrop/image_in_vsync
+top.\u_Sensor_Image_XYCrop/image_out_vsync
+top.\u_Sensor_Image_XYCrop/image_out_href
+top.\u_Sensor_Image_XYCrop/image_in_href
+top.\u_Sensor_Image_XYCrop/image_out_data[7:0]
+top.\u_Sensor_Image_XYCrop/image_in_data[7:0]

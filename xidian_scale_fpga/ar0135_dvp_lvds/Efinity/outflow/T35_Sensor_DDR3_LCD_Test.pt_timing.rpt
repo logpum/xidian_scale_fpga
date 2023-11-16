@@ -1,0 +1,133 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.1.150.4.10
+Date: 2023-11-02 22:54
+
+Copyright (C) 2017 - 2023 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_Sensor_DDR3_LCD_Test
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------+-------------+-----------------------+
+|    Clock     | Period (ns) | Phase Shift (degrees) |
++--------------+-------------+-----------------------+
+| pll_clk_200m |    7.1429   |           0           |
+|   Ddr_Clk    |    2.5063   |           0           |
+|   clk_cmos   |   37.5940   |           0           |
+| hdmi_clk1x_i |   20.0803   |           0           |
+| hdmi_clk2x_i |   10.0402   |           0           |
+| hdmi_clk5x_i |    4.0161   |           90          |
+|   Axi_Clk    |   10.4167   |           0           |
+|  tx_fastclk  |    5.9524   |           90          |
+|  tx_slowclk  |   20.8333   |           0           |
++--------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
+| cmos_pclk |  4.310   |  2.155   |
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-----------+-------------+----------+----------+
+| Instance Name |  Pin Name |  Parameter  | Max (ns) | Min (ns) |
++---------------+-----------+-------------+----------+----------+
+|   clk_12M_i   | clk_12M_i |   GPIO_IN   |  1.589   |  0.794   |
+|   clk_24M_i   | clk_24M_i |   GPIO_IN   |  1.589   |  0.794   |
+|    clk_24Mr   |  clk_24Mr |   GPIO_IN   |  1.476   |  0.738   |
+|   cmos_pclk   | cmos_pclk | GPIO_CLK_IN |  1.275   |  0.637   |
+|     LED[0]    |   LED[0]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[1]    |   LED[1]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[2]    |   LED[2]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[3]    |   LED[3]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[4]    |   LED[4]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[5]    |   LED[5]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[6]    |   LED[6]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[7]    |   LED[7]  |   GPIO_OUT  |  3.829   |  1.915   |
++---------------+-----------+-------------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|    lcd_pwm    | lcd_pwm  |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
+|  clk_cmos |  4.310   |  2.155   |
++-----------+----------+----------+
+
+Clkout GPIO Configuration:
+===========================
+
++---------------+-----------+--------------+----------+----------+
+| Instance Name | Clock Pin |  Parameter   | Max (ns) | Min (ns) |
++---------------+-----------+--------------+----------+----------+
+|   cmos_xclk   |  clk_cmos | GPIO_CLK_OUT |  8.137   |  4.069   |
++---------------+-----------+--------------+----------+----------+
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+---------------+-----------+----------+----------+
+| Instance Name |    Pin Name   | Parameter | Max (ns) | Min (ns) |
++---------------+---------------+-----------+----------+----------+
+|   cmos_ctl1   |   cmos_ctl1   |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[0] |  cmos_data[0] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[1] |  cmos_data[1] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[2] |  cmos_data[2] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[3] |  cmos_data[3] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[4] |  cmos_data[4] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[5] |  cmos_data[5] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[6] |  cmos_data[6] |  GPIO_IN  |  1.467   |  0.734   |
+|  cmos_data[7] |  cmos_data[7] |  GPIO_IN  |  1.467   |  0.734   |
+|   cmos_href   |   cmos_href   |  GPIO_IN  |  1.467   |  0.734   |
+|   cmos_vsync  |   cmos_vsync  |  GPIO_IN  |  1.467   |  0.734   |
+|   cmos_ctl0   |   cmos_ctl0   |  GPIO_OUT |  3.658   |  1.829   |
+|   cmos_ctl2   |   cmos_ctl2   |  GPIO_OUT |  3.658   |  1.829   |
+|   cmos_ctl3   |   cmos_ctl3   |  GPIO_OUT |  3.658   |  1.829   |
+|   cmos_sclk   |   cmos_sclk   |  GPIO_OUT |  3.658   |  1.829   |
+|   cmos_sdat   |  cmos_sdat_IN |  GPIO_IN  |  1.467   |  0.734   |
+|   cmos_sdat   | cmos_sdat_OUT |  GPIO_OUT |  3.658   |  1.829   |
+|   cmos_sdat   |  cmos_sdat_OE |  GPIO_OUT |  3.630   |  1.815   |
++---------------+---------------+-----------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------
+
+---------- 5. JTAG Timing Report (begin) ----------
+
++---------------+----------------+-----------+----------+----------+
+| Instance Name |    Pin Name    | Parameter | Max (ns) | Min (ns) |
++---------------+----------------+-----------+----------+----------+
+|   jtag_inst1  | jtag_inst1_TDI |  JTAG_IN  |  2.415   |  1.208   |
+|   jtag_inst1  | jtag_inst1_TMS |  JTAG_IN  |  1.755   |  0.877   |
++---------------+----------------+-----------+----------+----------+
+
+---------- JTAG Timing Report (end) ----------

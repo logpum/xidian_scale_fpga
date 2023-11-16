@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "afifo_buf",
+        "--base_path",
+        "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "13",
+        "DATA_WIDTH": "8",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "0",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\afifo_buf_tmpl.vhd",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\afifo_buf.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\afifo_buf_tmpl.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\afifo_buf_define.vh"
+        ],
+        "external_example_example": [
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\fifo_demo_top.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\fifo_demo.peri.xml",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\fifo_demo.xml",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\afifo_buf.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\T20F256_devkit\\afifo_buf_define.vh"
+        ],
+        "external_example_2": [
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\fifo_demo_top.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\fifo_demo.xml",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\afifo_buf.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Ti60F225_devkit\\afifo_buf_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\fifo_tb.sv",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\xrun.sh",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\msim.sh",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\flist",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\modelsim.do",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\afifo_buf.v",
+            "Z:\\OneDrive - tec(ic)\\FPGA\\ouyangyuanbin\\efx_bilinear_scaler\\02_AR0135_DVP_DDR3_LVDS_1024600\\Efinity\\ip\\afifo_buf\\Testbench\\afifo_buf_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-10-23T02:21:00.172885"
+}

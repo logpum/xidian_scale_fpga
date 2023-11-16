@@ -1,0 +1,162 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.4.10 
+Date: Thu Nov 02 22:54:35 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F324
+Top-level Entity Name: T35_Sensor_DDR3_LCD_Test
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 160 / 947 (16.90%)
+Outputs: 309 / 1416 (21.82%)
+Clocks: 9 / 16 (56.25%)
+Logic Elements: 3317 / 31680 (10.47%)
+	LE: LUTs/Adders: 2534 / 31680 (8.00%)
+	LE: Registers: 1819 / 30720 (5.92%)
+Memory Blocks: 75 / 288 (26.04%)
+Multipliers: 9 / 120 (7.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Block Information (begin) ----------
+
++--------------------------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|                                NAME                                | A_REG | B_REG | O_REG | RSTA_SYNC | RSTA_VALUE | RSTB_SYNC | RSTB_VALUE | RSTO_SYNC | RSTO_VALUE |
++--------------------------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|     u_scaler_gray/u1_bilinear_gray/u2_cal_bilinear_data/mult_5     | true  | false | true  |   true    |   false    |   false   |   false    |   true    |   false    |
+|     u_scaler_gray/u1_bilinear_gray/u2_cal_bilinear_data/mult_6     | true  | false | true  |   true    |   false    |   false   |   false    |   true    |   false    |
+|   u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/mult_15    | false | false | true  |   false   |   false    |   false   |   false    |   true    |   false    |
+|   u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/mult_17    | false | true  | true  |   false   |   false    |   true    |   false    |   true    |   false    |
+| u_scaler_gray/u1_bilinear_gray/u0_cal_bilinear_srcxy/mult_5_pp_0x0 | false | false | true  |   false   |   false    |   false   |   false    |   true    |   false    |
+|     u_scaler_gray/u1_bilinear_gray/u2_cal_bilinear_data/mult_4     | true  | false | true  |   true    |   false    |   false   |   false    |   true    |   false    |
+|   u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/mult_18    | true  | true  | true  |   true    |   false    |   true    |   false    |   true    |   false    |
+|   u_scaler_gray/u1_bilinear_gray/u1_cal_bilinear_weight/mult_16    | true  | false | true  |   true    |   false    |   false   |   false    |   true    |   false    |
+|     u_scaler_gray/u1_bilinear_gray/u2_cal_bilinear_data/mult_7     | true  | false | true  |   true    |   false    |   false   |   false    |   true    |   false    |
++--------------------------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+
+----------- DSP Block Information (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++---------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                         NAME                                          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++---------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$02                   | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$012                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$32                   | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0d12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0e12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0f12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$0g1                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$312                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3d12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3e12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                 u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3f12                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                  u_afifo_buf/u_efx_fifo_top/xefx_fifo_ram/ram__D$3g1                  | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$f12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$e12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$g1          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$d12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$b12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$c12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$f12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram00/ram__D$2           | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$e12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$g1          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$d12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$b12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$c12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$f12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram01/ram__D$2           | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$e12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$g1          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$d12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$b12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$c12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$f12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram10/ram__D$2           | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$e12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$g1          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$d12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$b12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|         u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$c12          | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|          u_scaler_gray/u0_data_stream_ctr/u_simple_dual_port_ram11/ram__D$2           | SDP  |     1      |      1      |  READ_FIRST  |    true    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12             | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1              | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12             | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$12              | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12             | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|              u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$2              | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12             | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12             | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12             | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12             | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1              | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12             | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$12              | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|              u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$2              | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12             | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|             u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12             | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$j1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$2  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
++---------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|      pll_clk_200m      |    Input     |
+|       cmos_ctl1        |    Input     |
+|    DdrCtrl_BID_0[0]    |    Input     |
+|    DdrCtrl_BID_0[1]    |    Input     |
+|    DdrCtrl_BID_0[2]    |    Input     |
+|    DdrCtrl_BID_0[3]    |    Input     |
+|    DdrCtrl_BID_0[4]    |    Input     |
+|    DdrCtrl_BID_0[5]    |    Input     |
+|    DdrCtrl_BID_0[6]    |    Input     |
+|    DdrCtrl_BID_0[7]    |    Input     |
+|    DdrCtrl_RID_0[0]    |    Input     |
+|    DdrCtrl_RID_0[1]    |    Input     |
+|    DdrCtrl_RID_0[2]    |    Input     |
+|    DdrCtrl_RID_0[3]    |    Input     |
+|    DdrCtrl_RID_0[4]    |    Input     |
+|    DdrCtrl_RID_0[5]    |    Input     |
+|    DdrCtrl_RID_0[6]    |    Input     |
+|    DdrCtrl_RID_0[7]    |    Input     |
+|    DdrCtrl_RLAST_0     |    Input     |
+|   DdrCtrl_RRESP_0[0]   |    Input     |
+|   DdrCtrl_RRESP_0[1]   |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 12 seconds

@@ -1,0 +1,31 @@
+[dumpfile] "E:\Efinity\T35F324_Board_HDK_V1.1\05_T35F324_Examples\AR0135_LCD_1121\Efinity\Axi_waveform.vcd"
+[dumpfile_mtime] "Mon Nov 21 15:22:06 2022"
+[dumpfile_size] 22056
+[savefile] "E:\Efinity\T35F324_Board_HDK_V1.1\05_T35F324_Examples\AR0135_LCD_1121\Efinity\Axi_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 512 1536 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.cmos_frame_vsync
+top.cmos_frame_href
+top.cmos_frame_Gray[7:0]
+top.hcnt[10:0]
+top.vcnt[10:0]
+top.aaddr[31:0]
+top.alen[7:0]
+top.avalid
+top.aready
+top.atype
+top.wdata[127:0]
+top.wvalid
+top.wready
+top.wlast
+top.bvalid
+top.bready
+top.rdata[127:0]
+top.rvalid
+top.rready
+top.rlast

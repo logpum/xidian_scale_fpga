@@ -1,0 +1,34 @@
+{
+    "args": [
+        "-o",
+        "etx_ddr3_reset_controller",
+        "--base_path",
+        "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_ddr_reset_controller",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "FREQ": "100"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\etx_ddr3_reset_controller.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\etx_ddr3_reset_controller_tmpl.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\etx_ddr3_reset_controller_define.vh",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\etx_ddr3_reset_controller_tmpl.vhd"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\Testbench\\ddr_reset_sequencer_tb.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\Testbench\\modelsim.do",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\Testbench\\etx_ddr3_reset_controller.v",
+            "C:\\Users\\25073\\AppData\\Local\\Temp\\tmpztjd7khx\\ip\\etx_ddr3_reset_controller\\Testbench\\etx_ddr3_reset_controller_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-10-19T05:40:35.450764"
+}
